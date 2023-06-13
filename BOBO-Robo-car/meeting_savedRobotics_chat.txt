@@ -1,0 +1,100 @@
+13:17:57 From  [200011703818] Shenith Silva (Unicorn)  to  Everyone : ahuna
+13:17:59 From  [847063394V] [Jerom Britto] [Colombo Branch] [  to  Everyone : share wuna
+13:18:01 From  [991923659v] PASINDU HARSHANA (Unicorns)  to  Everyone : ahuna
+13:18:02 From  [200027004019] Machintha Perera (Unicorns)  to  Everyone : ahuna
+13:18:09 From  [200002903380] Maleesha Hettiarachchi (Griffins)  to  Everyone : ahuna
+13:18:11 From  [991391770V] Suren Fernando (Unicorn)  to  Everyone : ahuna
+13:18:13 From  [200017302922] Darshaka Thiwanka (Unicorn)  to  Everyone : ahuna
+13:33:07 From  [0774918176] Chathura Bandara(Griffins)  to  Everyone : instance variable hadala tiyenawa
+13:33:21 From  [200022402104] Y.M.Chamod Maduwantha (Griffin)  to  Everyone : me code eke instance variable,static method bala gann puluwn. me code eka run krnna ba mkd meke compile error ekak thiynawa.e compile eka thama instance variable auto ram eke load wenne na api eyawa ram eke load krwanna one namuth meke instance variable eka ram eke load wenna command ekak dila nathi nisa ram eke load wenne na eka nisa apit static method eke thiyna x kiyan instance variable eka print krnna ba.
+13:33:46 From  [986713620v] Shalomi Selah (Unicorn)  to  Everyone : No compile error.No run time error.Output is 10.The code has 2 methods inside class A. One is main method and other on is method m.There is a variable which has value 10, int data type, and variable name is x.Method m has called from main method.Througth method m, the value of x has printed
+13:34:03 From  [991923659v] PASINDU HARSHANA (Unicorns)  to  Everyone : class A{int x=10;   <<<<<---instance variable static void m(){   <<static method System.out,println(x);<<-object එකක් හදල නෑ ඒ නිසා  ඉන්ස්ටන්ස්  වේරියබල් එක හැදිල නෑ  compile error}public static void main (String args[]){m();<<<cl to static m method }
+13:34:11 From  [847063394V] [Jerom Britto] [Colombo Branch] [  to  Everyone : class ekak hadala thiyenawa A kiyala eka athule instance variable ekak uth hadala thiyenawa x eke value eka 10 ita passe A kiyana class eka athule thiyenawa static method m kiyala ita passe x kiyana variable eka print karanna kiyala thiyenawa habai thiyena prashne thama instance variable ekak static method eheka print karanna baha ithin ita passe psvm ekath hadala thiyenawa psvm eke kiyanawa m method eka print karanna kiyala dan static method ekak intsance variable ekak print karanna bari nisa eka error ekak wenawa
+13:34:20 From  [966092009V] Ayesha Nirmalee (Unicorn)  to  Everyone : code eka compile error. sout(x); line 1k error . hethuwa x kiyanne instance variable ekk eka access krnnm object 1k hdanna onee nathuwa load wenne na. load nowichcha variable ekk access krnna ba. error eka nathi krnnam A class eken object ekk hadanna onee.. Eg- new A();
+13:34:47 From  [2000025500224] Shehan Milinda ( unicorn )  to  Everyone : මේක runtime exception එකක්. x කියන්නෙ instanse veriable එකක්. ඒක නිකම්ම sout(x) කියල print කරන්න බෑ.ඒක object එකක් හදල ඒක ඇතුලට load කරල object name.x කියල call කරන්න ඔනේ.public class A {int x = 10 ;static void m(){    A a =new A();    System.out.println(a.x);}    public static void main(String[] args) { 	   m();        }    }
+13:34:52 From  [200019401866] M.R.P.N.Tharuksha Rajapaksha (Griffins)  to  Everyone : the output is error !because variable x is an instance variable and m() method is a static method, an instance variable can't access from within a static method.
+13:35:03 From  [200077701580]kavindi herapathdeniya(unicorn)  to  Everyone : class A{int x=10;--->instance variblestatic vodi m(){--->static methodcompile error----system.out.println(x);--->cant acess instance variable without object in static context........}public static void main(string args[]){m();--->static method calling}}
+13:35:49 From  Varshani Brabaharan (955400470V)  to  Everyone : The code will give a compiler error upon running because a non static variable 'x' is being tried to accessed  by a static method ''m()
+13:35:54 From  [990171343v] Banuka Ashen Indula Kulasinghe (Griffin)  to  Everyone : class A{    int x = 10;    static void m(){            }    public static void main(String[] args) {   m();}}mehi main method eka wisin m() kiyana machine eka call karala thiyanawa. emenma "system.out.println" ekak nathi nisa kisima output ekk labenne ne. "x" yanu instance variable ekaki.
+13:35:59 From  [200011703818] Shenith Silva (Unicorn)  to  Everyone : int x variable එක non-static variable එකක් නිසා static method ekak වෙන void m() method එක තුලින් access කල නොහැකි වේ.ඒ නිසා compile error එකක් එයි.
+13:36:34 From  [987462230v] Maheshi Sewwandi (Griffin)  to  Everyone : Compile error in the programme because x is a instance variable. can't access x directly. we have to create a object to access x.
+13:37:03 From  [200005103445] Amodya Jayasuriya (Unicorns)  to  Everyone : there's compile time error in sout(x) because instance variable x can not be access through a static context instead of creating an object and calling though it in the main method with the method local variable which holds that object.
+13:37:12 From  [200033603258] chamuditha Pasindu (griffins)  to  Everyone : 1)"A" kiyala class ekak ram ekat load wenwa 2) main method eka heap ekay static area ekat load wenwa 3)itapasse "A" class ekay okkom static dewal static area ekat load wenwa 4)main methodeka run wenwa 5)m() methodeka call wenwa 6)m() method eka athule tiyen println call wenwa7)"x" kiyanne static variable ekak nisa x print wenwa
+13:37:13 From  [985352240V] Logamithrah Jegakosaran (Griffins)  to  Everyone : Its an error code.Its uncompilable code.In the 4th line is an error.In this code the x is a non-static variable.So it can't be referred from static content area.Because of that its  a runtime error.
+13:37:23 From  [200025102543] K.K.D Jalana Kannangara [Griffin]  to  Everyone : main method eken m(); call karata m() method eka static namuth x instance nisa m() athulen x wa print karanna ba  compile error ekk enawa
+13:37:24 From  [200017302922] Darshaka Thiwanka (Unicorn)  to  Everyone : me code eke x kiyanne instance variable ekk. m() kiyanne static method ekk instance varible ekk directly static method ekaka indala access karanna ba variable name eken. m() instance method ekk una nan kisi aulk na meka direct name eken access karanna puluwan. mkd dennama same object eka athulata ena nisa. eth static m method eke indan meka access karanna kalin e instance varible eka RAM ekat load karn inna one ekat class A ge object ekk hadanna one ita passe e object eka through apita x wa access karanna puluwan. meka me danata thiyana widiyata apita run karanna ba meka complie error. niwaradi krame thamaiclass A{int x =10;static void m(){System.out.println(new A().x);}public static void main(String [] args){m();}}
+13:37:30 From  [200076303829] Kaavya Fernando ( Unicorn )  to  Everyone : class A{    int x = 10;    static void m(){        System.out.println(x);    }    public static void main(String[] args) {        m();    }}#මේකේ x කියන්නෙ instance variable එකක්. එතකොට අපිට ඒකprint කරන්න බැ. හෙතුව තමයි instance දේවල් load වෙන්නෙ object එකක. ඉතින් අපි object එකක් හදන්නෙ නැතුව මේක ප්‍රින්ට් කරන්න හදනවාඑතකොට error. හේතුව load වෙලා නැති ඒව print කරන්න බැ
+13:37:33 From  [200012303241] Sakun Divyanga (Griffins)  to  Everyone : compile error ekak. int x = 10; kiynne instance variable ekak. object ekk hadla na. instance value ekakata api ram eke idak hadanna ona.
+13:37:35 From  [200004603901] Ashan Mullavidanage (Unicorn)  to  Everyone : as x is an instance variable,we need an object to load instance stuff in the memory.Instance variable x has being commanded to print inside a static context which is the sattic m() method...theirfor a compile error occurs in this code.
+13:37:44 From  [Channa Deshan][200009601120][Colombo Branch]  to  Everyone : class A{int x =10;static void m(){system.out.println(x);}public static void main(String[] args){m();}}--error-- cannot print "x" beacuse in order to get value of "x" 	  we need to create object of the current class.
+13:37:46 From  [982612160V] Dilmina Kalugala (Griffins)  to  Everyone : instance variables access karanna puluwan object ekak through witharai.code ekedi object ekak nathiwa instance variable eka access karanna hadana nisa code eka error ekak pennanawa.
+13:37:59 From  [200015403410] Kosala Dissanayake (unicorn)  to  Everyone : patan gattagmn static area ekta static code part tika load wenawa.eeta passe main methiod ek run wenna patan gannawa. m() method eka call wenawa. dial eka static area eke inneee hinda seen ekk natuwa run kranna puluwan. m() athuledi x ge value ekaprint kranna kiyanawa. eeth  x ram ekta loadwela naa. mokda eeka instance variable ekk. load kranna nm object ekk hadnnaoone.ee hinda compile error ekk enawa.
+13:38:09 From  [200325300856]Withanage Sisuka Gomiya Weerasinghe(Griffins)  to  Everyone : The provided code is consisted with 3 main components.They are, an Instance variable, a Static method and the main method.So, when we execute the program first of all, all the components of our program with static modifiers are loaded to the static area(class class object).Then the main method is executed by the JVM.Within the main method the static m() method is called.Then the JVM search for the static m() method in our program and execute it.Then in the m() method a print statement is coded inorder to print the instance x variable.But that leads to a compile error because x is an instance variable.
+13:38:29 From  [950551151V] Heshan Kulasooriya ( Griffin )  to  Everyone : jvm eka main method eka run krna nisa next line execute karanakota m(); method call krnwa.. m() method kiynne static variables ekak.. m method eka load wela x wa print krnna giyata passe x kiyna variables eken allagaththa value ekak static area eke na.. e nisa code eka run krnna kalin error eka ena nisa me code eka compile error
+13:39:05 From  [978413277V] Sahani Amarasinghe (Unicorn)  to  Everyone : int x = 10; kiyanne instance variable ekak.main method eken kiynwa m kiyana method eka start karanna kiayala.m() kiynne static method ekak. methana static method eka asse system.out.println(x); kiyla statement ekk cl karala tyenwa.. ethana pass karala tynne x kiyana variable eka eeka instance  , ee kiynne non static . static area ekaka idan non static dewal access kranna be .. ee nisa me code eka compile error ekk enwa..
+13:39:07 From  [990171343v] Banuka Ashen Indula Kulasinghe (Griffin)  to  Everyone : class A {    int x = 10;    static void m(){        System.out.println("x");    }    public static void main(String[] args) {   m();}}mehi main method eka wisin m() kiyana machine eka call karala thiyanawa. emenma "system.out.println" output eka "x" labenawa. "x" yanu instance variable ekaki.
+13:39:20 From  [996560309v] Sanduni Fonseka (Unicorn)  to  Everyone : class A{  
+13:39:50 From  [982511267v] [Deshan Kavindu] [Kandy]  to  Everyone : me code eka run karanna bah. mokada meka apita deela thiyenne instance variable ekak. ethkota meka nikanma x wala agaya print karnna bah.abject ekak hadala eyta api danna one
+13:39:50 From  [200002700763] Minusha Sooriyampola (Unicorn)  to  Everyone : A kiyanne factory ekak. factory eka thule innawa x = 10 kiyala instance int variable ekak. m() kiyala static method ekak thiyenawa. static kiyanne modifier ekak. void kiyanne data output bate. m kiyanne method name eka. m() method eka athule print statement ekak thiyenawa. eken kiyanne x kiyana variable eka wisin allan inna value eka print karanna kiyala. m() method scope eka iwara unu gaman main method eka thiyenawa. public static void main kiyana eke public saha static kiyanne modifiers dekak. void kiyanne data output wena bate. main kiyanne method name eka. (String args[]) kiyanne parameter list eka. eka athule thamai data input wena bate thiyenne. main method eka athule kiyala thiyenawa m() kiyana method ekata call karanna kiyala. code eka run wunu gaman mulinma main method eka start wenawa. main method eka line by line executer weddi mulinma hambenne m() method eka start krnna kiyana eka. m method eka athule tyna system.out.println eka
+13:39:52 From  [200002700763] Minusha Sooriyampola (Unicorn)  to  Everyone : athulata gihama eke thiyenne x wa araganna balanawa. ethakota x wa araganna ba kiyala compile-time error ekak enawa mokada instance variables/methods static content athulen access karanna bari nisa
+13:40:00 From  [200002604127] [Pulathisi Punsara][Colombo branch]  to  Everyone : class ekk hadla tyenw A kyla me class eka athule x kiyala instance variable ekk tyenw  e wgema meke static method ekakut tyenw.me instance variable eka static method eka athule print krnn kyl tyenw eth me code eka run krddi compile error ekk enw ekta hethuwa tma instance variable ekk static method eke call krnn bari eka
+13:40:06 From  [976060083] Sahani Ranasingha (unicorn)  to  Everyone : this proramme has instanse variable..m method is a static.In m methord,call to x(instanse variable) by  println statement.given compile error.we can't call instance vairable in static method.
+13:40:31 From  [976130464V] Pathumi Rashmika (griffins)  to  Everyone : A kiyala class ekak tiyenwa. eka athule instance variable ekak hadala tiyenwa int x=10; kiyala. A class eka athule static method ekak thiyenwa m() kiyala. m method eka main method eka athule start kraal thiyenwa. m() method eka athule system.out.println statement eken x variable eka access krnna try kraal thiyenawa. instance variable ekak static method ekak athule access karanna baha. e nisa me code eka compile error.
+13:40:49 From  [996560309v] Sanduni Fonseka (Unicorn)  to  Everyone : Me code eka compile error. static class ekak atule instance variable ekak access karala tiyenne object ekak create karanne natuwa. 
+13:41:25 From  [847063394V] [Jerom Britto] [Colombo Branch] [  to  Everyone : object
+13:41:29 From  [200015403410] Kosala Dissanayake (unicorn)  to  Everyone : object ekkata
+13:41:32 From  [976130464V] Pathumi Rashmika (griffins)  to  Everyone : class ekata
+13:41:32 From  [199835410549] ABDUL RAHUMAN MUHAMMED HAZEEM [GRIFFINS]  to  Everyone : object ekata
+13:41:36 From  [200325300856]Withanage Sisuka Gomiya Weerasinghe(Griffins)  to  Everyone : object ekata
+13:41:37 From  [Channa Deshan][200009601120][Colombo Branch]  to  Everyone : class ekata
+13:41:40 From  [200022402104] Y.M.Chamod Maduwantha (Griffin)  to  Everyone : class ekat
+13:41:41 From  [200076303829] Kaavya Fernando ( Unicorn )  to  Everyone : class scope ekata
+13:41:43 From  [982612160V] Dilmina Kalugala (Griffins)  to  Everyone : class ekata
+13:41:45 From  [200019401866] M.R.P.N.Tharuksha Rajapaksha (Griffins)  to  Everyone : class aketa
+13:43:40 From  [847063394V] [Jerom Britto] [Colombo Branch] [  to  Everyone : eke static variables print karanna saha hadanna puluhan
+13:46:06 From  [200012303241] Sakun Divyanga (Griffins)  to  Everyone : heap eke
+13:49:28 From  [982511267v] [Deshan Kavindu] [Kandy]  to  Everyone : naa
+13:49:29 From  [986713620v] Shalomi Selah (Unicorn)  to  Everyone : na
+13:49:29 From  [200011703818] Shenith Silva (Unicorn)  to  Everyone : ne
+13:49:30 From  [Channa Deshan][200009601120][Colombo Branch]  to  Everyone : na
+13:49:30 From  [200017302922] Darshaka Thiwanka (Unicorn)  to  Everyone : na
+13:49:30 From  [200325300856]Withanage Sisuka Gomiya Weerasinghe(Griffins)  to  Everyone : naha
+13:49:31 From  [966092009V] Ayesha Nirmalee (Unicorn)  to  Everyone : naaaaaa
+13:49:31 From  [847063394V] [Jerom Britto] [Colombo Branch] [  to  Everyone : naha
+13:49:32 From  [200451700581] Maneesha Perera (Griffins)  to  Everyone : na
+13:49:35 From  [200002903380] Maleesha Hettiarachchi (Griffins)  to  Everyone : na
+13:49:36 From  [0774690754] Vihidu Siththaru De Silva (Griffin)  to  Everyone : na
+13:49:37 From  [991391770V] Suren Fernando (Unicorn)  to  Everyone : na
+13:52:17 From  [847063394V] [Jerom Britto] [Colombo Branch] [  to  Everyone : sir ahaowuw eka kiyannako
+13:59:40 From  [200015403410] Kosala Dissanayake (unicorn)  to  Everyone : mi una matath haduna
+14:01:53 From  [200017302922] Darshaka Thiwanka (Unicorn)  to  Everyone : one sinhala behet kadeka thiyanwd oka
+14:02:06 From  [200016403180] Biman Gunarathne (Griffins)  to  Everyone : sir mokadda nama sir
+14:11:00 From  Dr. Bhatiya Tissera  to  Everyone : Hela Suwaya
+14:13:31 From  [196917902307][Priyantha Kumara][Colombo]  to  Everyone : class doesn't have a main method kiyala enwa
+14:14:13 From  [196917902307][Priyantha Kumara][Colombo]  to  Everyone : dekatama enne ekama uththaraya
+14:21:36 From  [200015403410] Kosala Dissanayake (unicorn)  to  Everyone : unicorn nam ohoma naa
+14:22:38 From  [200017302922] Darshaka Thiwanka (Unicorn)  to  Everyone : sahanila doublak innw sir :D
+14:29:29 From  [200017302922] Darshaka Thiwanka (Unicorn)  to  Everyone : compile
+14:29:30 From  [199835410549] ABDUL RAHUMAN MUHAMMED HAZEEM [GRIFFINS]  to  Everyone : compile
+14:29:31 From  [991923659v] PASINDU HARSHANA (Unicorns)  to  Everyone : compile.
+14:29:31 From  [200033603258] chamuditha Pasindu (griffins)  to  Everyone : compile time
+14:29:32 From  [Channa Deshan][200009601120][Colombo Branch]  to  Everyone : compile time
+14:29:32 From  [200011703818] Shenith Silva (Unicorn)  to  Everyone : compile time
+14:29:33 From  Varshani Brabaharan (955400470V)  to  Everyone : compile time
+14:29:33 From  [991391770V] Suren Fernando (Unicorn)  to  Everyone : compile 
+14:29:33 From  [0774918176] Chathura Bandara(Griffins)  to  Everyone : compile
+14:29:33 From  [986713620v] Shalomi Selah (Unicorn)  to  Everyone : compile
+14:29:34 From  [200002903380] Maleesha Hettiarachchi (Griffins)  to  Everyone : compile
+14:29:35 From  [200325300856]Withanage Sisuka Gomiya Weerasinghe(Griffins)  to  Everyone : complie time
+14:29:36 From  [991684824v] Chamith Soyza (Griffins)  to  Everyone : compile
+14:29:37 From  [990171343v] Banuka Ashen Indula Kulasinghe (Griffin)  to  Everyone : compile
+14:29:38 From  [200019401866] M.R.P.N.Tharuksha Rajapaksha (Griffins)  to  Everyone : compile
+14:33:52 From  [200015403410] Kosala Dissanayake (unicorn)  to  Everyone : darshakata ewala thibbe
+14:34:19 From  [200017302922] Darshaka Thiwanka (Unicorn)  to  Everyone : ow ow mn meloke ekek nemeine kosala :D
+14:34:57 From  [200016603688] [Thilan Sandaruwan] [Kandy Branch]  to  Everyone : corona iwara wennath kalin thawa karumayakda🤐🤐🤐 ethakota api me corse eka iwr karanne laba athmeda🤔🤔🤔
+14:37:07 From  [200017302922] Darshaka Thiwanka (Unicorn)  to  Everyone : api pitasakwallayantat java ugannamu
+14:37:21 From  [ 981140010v ] Danidu Danasanka (Unicorn)  to  Everyone : danuth husma gnne amaruwen
+14:37:36 From  [200016603688] [Thilan Sandaruwan] [Kandy Branch]  to  Everyone : sir ethakota clz normally patan ganne kawada wageda dn scl ehm ptn aranne thiyanne
+14:37:39 From  [982511267v] [Deshan Kavindu] [Kandy]  to  Everyone : ow ekanm
+14:37:40 From  [200002604127] [Pulathisi Punsara][Colombo branch]  to  Everyone : husma gnna bry wennma lectures wtenwnm corona awta kmk naa😂
+15:56:28 From  Dr. Bhatiya Tissera  to  Everyone : Robot kit purchase linkhttps://vuse.javainstitute.org/vuse/main-pages/shop.jsp
